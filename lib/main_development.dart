@@ -11,7 +11,8 @@ import 'package:bevel/core/di/di_container.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
-  await configureDependencies();
+  WidgetsFlutterBinding.ensureInitialized();
+  await configureDependencies(); // dependency injection
   await bootstrap(
         () => const App(),
   );

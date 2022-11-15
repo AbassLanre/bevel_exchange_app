@@ -8,19 +8,21 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: const [
-
-        //providers should be put here, remove const key word
-
-      ],
-      child: const MaterialApp(
+    return
+      // MultiProvider(
+      // providers: const [
+      //
+      //   //providers should be put here, remove const key word
+      //
+      // ],
+      // child:
+      const MaterialApp(
         initialRoute: Routes.test,
 
         //all routes should be created in the route file not here
 
         onGenerateRoute: generateRoute,
-      ),
-    );
+      );
+    // );
   }
 }
