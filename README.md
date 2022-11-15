@@ -26,3 +26,5 @@ the  assets/ folder has fonts, images and icons subfolder and their string locat
 the network clients url is stored at constants/network_client
 
 The Navigation is done at core/navigators where all navigation pages are called
+
+The provider as our statemanagement is called from lib/app/view/app.dart the multiprovider is edited out for now but when ready it is called from there
