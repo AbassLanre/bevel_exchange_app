@@ -23,7 +23,7 @@ Styling should be done in lib/app/styles, it contains the entire style structure
 
 the  assets/ folder has fonts, images and icons subfolder and their string location should be stored at constants/app_assets
 
-the network clients url is stored at constants/network_client
+the network clients url is stored at constants/network_client/////////////
 
 The Navigation is done at core/navigators where all navigation pages are called
 
